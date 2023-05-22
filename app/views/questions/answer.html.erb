@@ -1,0 +1,14 @@
+<h2>Stupid Coaching</h2>
+
+<h4>Hello there</h4>
+<div class="p-3 mb-2 bg-light text-dark border-left border-secondary">
+<%= @question %>
+<p class="font-italic">- You</p>
+</div>
+
+<div class="p-3 mb-2 bg-warning bg-gradient text-dark border-left border-secondary">
+<%= @answer %>
+<p class="font-italic">- The Coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
